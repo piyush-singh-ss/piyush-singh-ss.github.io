@@ -24,6 +24,7 @@ export default defineConfig({
 	image: {
 		domains: ["webmention.io"],
 	},
+	output: "static",
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
 		icon(),
