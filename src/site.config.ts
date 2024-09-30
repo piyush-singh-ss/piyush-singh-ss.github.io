@@ -23,10 +23,6 @@ export const siteConfig: SiteConfig = {
 	sortPostsByUpdatedDate: false,
 	// Used to construct the meta title property found in src/components/BaseHead.astro L:11, and webmanifest name found in astro.config.ts L:42
 	title: "Piyush Singh's Blog",
-	webmentions: {
-		// Webmention.io API endpoint. Get your own here: https://webmention.io/, and follow this blog post: https://astro-cactus.chriswilliams.dev/posts/webmentions/
-		link: "https://webmention.io/astro-cactus.chriswilliams.dev/webmention",
-	},
 };
 
 // Used to generate links in both the Header & Footer.
